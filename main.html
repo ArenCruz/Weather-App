@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" type="module"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet"  href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>Weather, Weather</title>
+</head>
+<body>
+    <div class="main">
+        <div class="contain">
+            <h2 id="temp">26°c</h2>
+            <div class="containTwo">
+                <h2 class="no-break"id="loc">Lingayen</h2>
+                <h2 id="country">PH</h2>
+                <div id="containImg">
+                    <img src="Sunlight_light.png" alt="clear" id="clear" class="icon">
+                </div>
+            </div>
+        </div>
+        
+        <div class="sideBar">
+            <input type="text" placeholder="Search city" id="searchBar">
+            <button id="btn"><img src="Search_light@3x.png" alt="search" id="img"></button>
+            <div class="line" id="lineBelow"></div>
+            <div class="line" id="lineOne"></div>
+            <div id="wdc">
+                <h2 id="weatherDetails">Weather Details</h2>
+            </div>
+            <article class="details">
+                <p class="detail" id="humidity">Humidity</p>
+                <p class="number" id="percent">12%</p>
+            </article>
+            <article class="details">
+                <p class="detail" id="windSpeeds">Wind Speeds</p>
+                <p class="number" id="speed">12km/h</p>
+            </article> 
+             <article class="details">
+                <p class="detail" id="feelsLike">Feels Like</p>
+                <p class="number" id="feelsNum">20°c</p>
+            </article> 
+            <div class="line" id="lineTwo"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
